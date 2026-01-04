@@ -54,7 +54,7 @@ The best validation performance achieved:
 - IoU ≈ 0.34
 - Dice ≈ 0.50
 
-Several qualitative results are provided in the `figures/` folder.
+Several qualitative results are provided in the folder.
 
 ---
 
