@@ -1,6 +1,11 @@
 # CrackForest-Segmentation
 # Pavement Crack Segmentation with U-Net
 
+## Pretrained Model
+The pretrained model is provided via GitHub Release due to file size limitation.
+Download link:
+https://github.com/cedriczhao00-droid/CrackForest-Segmentation/releases/tag/models
+
 This project focuses on pavement crack segmentation using deep learning methods. 
 A U-Net based model is trained and evaluated on the CrackForest dataset to perform binary crack segmentation.
 
@@ -10,9 +15,9 @@ The goal of this project is to automatically detect crack regions in road images
 
 ## Dataset
 
-The CrackForest dataset is used in this project. It contains pavement images and corresponding crack annotations.
+The CrackForest dataset is used in this project. It contains pavement and cracks images.
 
-- Images are RGB pavement photos.
+- Images are pavement photos.
 - Ground truth labels are provided as segmentation masks.
 - Crack pixels occupy only a small portion of each image, resulting in strong class imbalance.
 
