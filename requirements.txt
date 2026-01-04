@@ -1,0 +1,11 @@
+## Requirements
+
+- Python 3.9+
+- PyTorch
+- torchvision
+- albumentations
+- numpy
+- opencv-python
+- matplotlib
+
+The code was tested on Kaggle with GPU.
